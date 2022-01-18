@@ -1,0 +1,14 @@
+
+Test Case ID	Test Case Description	Test Steps	Test Data	Expected Results	Actual Results	Pass/Fail
+TU01	Check Customer Login with valid Data	
+Go to site http://demo.guru99.com
+Enter UserId
+Enter Password
+Click Submit
+Userid = guru99 Password = pass99	User should Login into an application	As Expected	Pass
+TU02	Check Customer Login with invalid Data	
+Go to site http://demo.guru99.com
+Enter UserId
+Enter Password
+Click Submit
+Userid = guru99 Password = glass99	User should not Login into an application	As Expected	Pass
